@@ -16,9 +16,9 @@ class CifraDeCesar{
         CifraDeCesar();
         CifraDeCesar(string input, int key);
 
-        void encrypt();
-        void decrypt();
-        void formatKey(int x);
+        void encrypt(); //encriptar o texto
+        void decrypt(); //descriptografar o texto 
+        void formatKey(int x); //formata a chave para um numero compativel e equivalente
 
         string getOutput();
 };

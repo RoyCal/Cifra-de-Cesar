@@ -15,8 +15,8 @@ int main(){
 
         cin >> escolha;
         
-        switch(escolha){
-            case 1:
+        switch(escolha){ 
+            case 1: //encrypt
                 system("cls");
 
                 cout << "Valor da chave: ";
@@ -34,7 +34,7 @@ int main(){
                 cout << "\n";
 
                 break;
-            case 2:
+            case 2: //decrypt
                 system("cls");
 
                 cout << "Valor da chave usada no encriptamento: ";
@@ -52,7 +52,7 @@ int main(){
                 cout << "\n";
 
                 break;
-            case 0:
+            case 0: //sair do programa
                 j = 0;
                 break;
             default:
