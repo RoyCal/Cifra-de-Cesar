@@ -12,7 +12,7 @@ militar e político romano), que o usou para se comunicar com os seus generais.
 O programa foi feito com o intuito de funcionar tanto como um tradutor, como um encriptador para Cifra de César.
 O código foi feito na linguagem C++. Possui uma classe chamada CifraDeCesar que possui os métodos encrypt e decrypt que servem 
 respectivamente para encriptar e descriptografar um texto. Na função main foi criado um objeto crypto da classe CifraDeCesar e 
-através de um switch case com escolhas o usuário pode escolher qual dos métodos o objeto irá chamar.
+através de um switch case com escolhas, o usuário pode escolher qual dos métodos o objeto irá chamar.
 
 <br>
 
